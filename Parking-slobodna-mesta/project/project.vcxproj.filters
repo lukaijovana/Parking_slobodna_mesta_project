@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\package_bgs\PBAS\PBAS.cpp">
+      <Filter>bgs\PBAS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_bgs\PBAS\PixelBasedAdaptiveSegmenter.cpp">
+      <Filter>bgs\PBAS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_tracking\BlobTracking.cpp">
+      <Filter>pracenje</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_tracking\cvblob\cvaux.cpp">
+      <Filter>pracenje\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_tracking\cvblob\cvblob.cpp">
+      <Filter>pracenje\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_tracking\cvblob\cvlabel.cpp">
+      <Filter>pracenje\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_tracking\cvblob\cvtrack.cpp">
+      <Filter>pracenje\cvblob</Filter>
+    </ClCompile>
+    <ClCompile Include="..\package_analysis\VehicleCouting.cpp">
+      <Filter>analiza</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="analiza">
+      <UniqueIdentifier>{630045ab-414f-4430-97ca-4eaca789ae23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bgs">
+      <UniqueIdentifier>{6c78c53f-c2e1-4c83-abba-0a017c162da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bgs\PBAS">
+      <UniqueIdentifier>{28305431-876f-432e-b861-d03cfff7eeaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pracenje">
+      <UniqueIdentifier>{d164af9b-aa85-432f-9573-46e56d137c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pracenje\cvblob">
+      <UniqueIdentifier>{a404eccb-5f7b-4568-8789-6c28d913be4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\package_bgs\IBGS.h">
+      <Filter>bgs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\PBAS\PBAS.h">
+      <Filter>bgs\PBAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_bgs\PBAS\PixelBasedAdaptiveSegmenter.h">
+      <Filter>bgs\PBAS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_tracking\BlobTracking.h">
+      <Filter>pracenje</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_tracking\cvblob\cvblob.h">
+      <Filter>pracenje\cvblob</Filter>
+    </ClInclude>
+    <ClInclude Include="..\package_analysis\VehicleCouting.h">
+      <Filter>analiza</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
